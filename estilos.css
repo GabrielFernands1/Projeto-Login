@@ -1,0 +1,65 @@
+@charset "UTF-8";
+* {
+    margin: 5px;
+    padding: 5px;
+}
+body , html {
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(to right, #593F84, #428086 );
+    text-align: center;
+    
+}
+img{
+    max-width: 45vw;
+    max-height: 45vh;
+    border-radius: 20px;
+    transform: translate(-10px);
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: -1px; /* Espaço entre a imagem e o formulário */
+    max-width: 600px;
+    max-height: 45vh;
+    margin: 0 auto;
+    padding: 0px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.601);
+    
+}
+    .submit {
+        margin: 0px;
+        width: 175px;
+        transform: translate(22px);
+        background-color: #4EAAA3;
+        color: white;
+        border-radius: 20px;
+        
+    }
+    .submit:hover {
+
+    }
+    #isenha{
+        transform: translate(-2px);
+    }
+    #iesq{
+        transform: translate(22px);
+        border-radius: 10px;
+    }
+   
+    #esqueci{
+        border-radius: 20px;
+        margin-top: 0px;
+        width: 175px;
+        transform: translate(23px);
+    }
+     
+        
+

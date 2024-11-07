@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media screen and (min-width:375px) and (max-width:600px) {
+    .submit {
+        margin: 0px;
+        width: 175px;
+        transform:translate(-2px);
+        transform: translateY(-23px);
+        background-color: #4EAAA3;
+        color: white;
+        border-radius: 20px;}
+        #esqueci{
+            border-radius: 20px;
+            margin-top: 0px;
+            width: 175px;
+            transform: translateY(-23px);
+        }
+        div h1 {
+
+            transform: translatey(18px);
+        }
+         
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+}
+@media screen and (min-width:993px) and (max-width:1200px){
+
+}
